@@ -1,0 +1,64 @@
+/* Selector de etiqueta */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #F8F4FB; /* Fondo */
+    text-align: center;
+    color: #333333; /* Texto */
+}
+
+/* Selector de clase */
+.foto {
+    width: 150px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 10px gray;
+}
+
+/* Selector de ID */
+#inicio {
+    background-color: #C8A2C8; /* Header lila suave */
+    color: white;
+    padding: 20px;
+}
+
+/* Selector descendiente */
+nav a {
+    margin: 10px;
+    text-decoration: none;
+    color: #333333;
+    font-weight: bold;
+}
+
+/* Selector hijo */
+main > section {
+    background-color: #EFE7F6; /* Cajas */
+    margin: 20px;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+/* Pseudo-clases */
+nav a:hover {
+    color: #B57EDC; /* Color títulos */
+}
+nav a:active {
+    color: red;
+}
+
+/* Pseudo-elementos */
+h2::before {
+    content: "★ ";
+    color: #B57EDC;
+}
+h2::after {
+    content: " ★";
+    color: #B57EDC;
+}
+
+/* Propiedades de texto */
+h1, h2 {
+    font-size: 24px;
+    color: #B57EDC; /* Títulos */
+}
+p, li {
+    font-size: 16px;
+}
